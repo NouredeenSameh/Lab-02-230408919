@@ -1,4 +1,4 @@
-# Lab 2 - CSS Styling and Layouts
+# Lab 2 - CSS Styling and Layouts Overview
 
 ## File Organization
 * `index.html`: Contains the core semantic HTML structure with 6 box elements (A through F).

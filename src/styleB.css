@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    white-space: nowrap;
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    position: relative;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: left;
+    color: black;
+}
+
+/* Hover effects */
+.box:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
+
+/* Fix element F permanently to bottom-right corner */
+.box:last-child {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
